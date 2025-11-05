@@ -12,7 +12,7 @@ import { HttpClient } from '@angular/common/http';
       <div class="tic-grid">
         @for (item of items; track item.tx) {
           <img 
-            [src]="imageMap[item.tx] || 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2264%22 height=%2264%22%3E%3Crect fill=%22%23ddd%22 width=%2264%22 height=%2264%22/%3E%3C/svg%3E'"
+            [src]="imageMap[item.tx] || 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22128%22 height=%22128%22%3E%3Crect fill=%22%23ddd%22 width=%22128%22 height=%22128%22/%3E%3C/svg%3E'"
             class="tic-img"
             [title]="item.fullName"
             (error)="onImageError($event, item.tx)">
@@ -28,27 +28,25 @@ import { HttpClient } from '@angular/common/http';
 
     .tic-container {
       all: revert;
-      padding: 60px 40px 20px 40px;
-      background: #C3FF00;
+      padding: 20px 40px;
+      background: #ffff00;
       min-height: 100vh;
     }
     
     .tic-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(64px, 1fr));
-      gap: 0;
+      grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+      gap: 10px;
     }
     
     .tic-img {
-      width: 64px;
-      height: 64px;
+      width: 96px;
+      height: 96px;
       image-rendering: pixelated;
       cursor: pointer;
       border: none;
       padding: 0;
       margin: 0;
-      margin-top: 1px;
-      margin-right: 1px;
     }
   `]
 })

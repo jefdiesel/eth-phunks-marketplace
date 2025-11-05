@@ -8,17 +8,17 @@ export const routes: Routes = [
     component: InitialCollectionGuard
   },
   {
+    path: 'subscriptions-test',
+    loadComponent: () => import('@/routes/subscriptions-test/subscriptions-test.component').then(mod => mod.SubscriptionsTestComponent)
+  },
+  {
+    path: 'subscriptions',
+    loadComponent: () => import('@/routes/subscriptions-test/subscriptions-test.component').then(mod => mod.SubscriptionsTestComponent)
+  },
+  {
     path: 'market/:marketType',
     redirectTo: 'ethereum-phunks/market/:marketType',
     pathMatch: 'full'
-  },
-  {
-    path: 'details/:hashId',
-    loadComponent: () => import('@/routes/item-view/item-view.component').then(mod => mod.ItemViewComponent)
-  },
-  {
-    path: 'subscriptions-test',
-    loadComponent: () => import('./subscriptions-test/subscriptions-test.component').then(mod => mod.SubscriptionsTestComponent)
   },
   {
     path: 'curated/:slug',
@@ -29,6 +29,10 @@ export const routes: Routes = [
     path: 'curated/:slug/market/:marketType',
     redirectTo: ':slug/market/:marketType',
     pathMatch: 'full'
+  },
+  {
+    path: 'details/:hashId',
+    loadComponent: () => import('@/routes/item-view/item-view.component').then(mod => mod.ItemViewComponent)
   },
   {
     path: ':slug',
