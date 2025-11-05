@@ -21,12 +21,55 @@ export class EthscriptionService {
   ) {}
 
   /**
+   * Extracts image from TIC (Tiny Image Comments) protocol
+   * @param tx Transaction hash of the Ethscription
+   * @returns Data URI string or null
+   */
+  private async extractTICImage(tx: string): Promise<string | null> {
+    try {
+      const response = await fetch(`https://api.ethscriptions.com/api/ethscriptions/${tx}`);
+      const ethscription = await response.json();
+      
+      if (!ethscription.content_uri) return null;
+      
+      // Step 1: Extract TIC JSON from content_uri data URL
+      const jsonMatch = ethscription.content_uri.match(/,({.*})/);
+      if (!jsonMatch) return null;
+      
+      // Step 2: Parse TIC JSON
+      const ticJson = JSON.parse(jsonMatch[1]);
+      
+      // Step 3: Parse the nested content field
+      const content = JSON.parse(ticJson.content);
+      
+      // Step 4: Extract base64 image
+      if (content.images?.small?.data) {
+        const mimeType = content.images.small.mimeType || 'image/png';
+        const base64 = content.images.small.data;
+        return `data:${mimeType};base64,${base64}`;
+      }
+      
+      return null;
+    } catch (err) {
+      console.error('Failed to extract TIC image from', tx, err);
+      return null;
+    }
+  }
+
+  /**
    * Processes a phunk's image data from the blockchain
    * @param phunk The phunk object containing the hash ID
    */
   async processImage(phunk: Phunk | null): Promise<DecodedData | null> {
     if (!phunk) return null;
 
+    // Step 1: Try TIC protocol extraction first
+    const ticImage = await this.extractTICImage(phunk.hashId as string);
+    if (ticImage) {
+      return this.decodeDataURI(ticImage);
+    }
+
+    // Step 2: Fall back to existing logic
     let imageData;
     if (phunk?.isSupported) {
       imageData = await this.fetchHostedImage(phunk);

@@ -112,7 +112,7 @@ export class MarketStateEffects {
   fetchMarketData$ = createEffect(() => this.actions$.pipe(
     ofType(marketStateActions.setMarketSlug),
     distinctUntilChanged((a, b) => a.marketSlug === b.marketSlug),
-    switchMap(({ marketSlug }) => this.dataSvc.fetchMarketData(marketSlug)),
+    switchMap(({ marketSlug }) => this.dataSvc.fetchTICCollection()),
     // tap((marketData) => console.log('fetchMarketData$', marketData)),
     map((marketData) => marketStateActions.setMarketData({ marketData }))
   ));

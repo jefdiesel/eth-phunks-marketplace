@@ -20,8 +20,14 @@
   </button>
 
   <div class="curated-dropdown">
+    
+      routerLink="/subscriptions"
+      [class.active]="(activeCollection$ | async)?.slug === 'subscriptions'">
+      <span>Subscriptions</span>
+    </a>
+    
     @for (item of (collections$ | async); track item.slug) {
-      <a
+      
         [routerLink]="['/curated', item.slug]"
         [class.active]="(activeCollection$ | async)?.slug === item.slug">
 

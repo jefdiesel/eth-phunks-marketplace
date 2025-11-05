@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, ApplicationRef } from '@angular/core';
 import { Socket, SocketIoConfig } from 'ngx-socket-io';
 import { tap } from 'rxjs';
 
@@ -28,8 +28,8 @@ export class GasService extends Socket {
   /** Observable stream of gas data */
   gas$ = this.fromEvent<GasData, 'gasData'>('gasData');
 
-  constructor() {
-    super(socketConfig);
+  constructor(appRef: ApplicationRef) {
+    super(socketConfig, appRef);
   }
 
   connect(callback?: ((err: any) => void) | undefined): this {

@@ -1,0 +1,1659 @@
+[
+  {
+    "tx": "0x30cb2fa807ef8da8b7fda00494e8ffcaef54d54a032f55ed80a420b4665615fb",
+    "name": "1",
+    "fullName": "Subscription #1",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/1.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Perky Porky Pink"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Omega Block Zealots"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "White Shirt"
+      }
+    ]
+  },
+  {
+    "tx": "0x3bff6748843816af1e3f5342e8cc937c788bdf16184506b5117bc8aefe21df5d",
+    "name": "2",
+    "fullName": "Subscription #2",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/2.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Sir Pinkalot"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Scriboor"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      }
+    ]
+  },
+  {
+    "tx": "0x06baf7f48abe3b0aee6076e4eb5c686eb14b8989900ffbe133d53155a93a10e5",
+    "name": "3",
+    "fullName": "Subscription #3",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/3.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Deep Purple"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level Goth"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Black Hoodie"
+      }
+    ]
+  },
+  {
+    "tx": "0x191c35719a9a93705583622bbbf8635fb31a6651a748ebd7b7b5e8cfb1315b75",
+    "name": "4",
+    "fullName": "Subscription #4",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/4.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Royal Purple"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Scriboor"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Aviators"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Flannel"
+      }
+    ]
+  },
+  {
+    "tx": "0x1015a72b65deac60fbde199f9e037ee3de2d0037df7c82c475b01a5389f36fa2",
+    "name": "5",
+    "fullName": "Subscription #5",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/5.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Feeling Blue"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Scriboor"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Aviators"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Pink Hoodie"
+      }
+    ]
+  },
+  {
+    "tx": "0xddf299cee899d85862a2d822121266d0308d295cf479fdf181a3bdae28a2e1cd",
+    "name": "6",
+    "fullName": "Subscription #6",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/6.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Sir Pinkalot"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Omega Block Zealots"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Aviators"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Pink Shirt Striped"
+      }
+    ]
+  },
+  {
+    "tx": "0x87ed23f7de6b9fba12c3e5d534e1a33d1644752f5563c5f3fbf565b3a1a35f0d",
+    "name": "7",
+    "fullName": "Subscription #7",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/7.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Perky Porky Pink"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level Goth"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Green Shirt Striped"
+      }
+    ]
+  },
+  {
+    "tx": "0x55edcf82a7734c0bdfbfedbb2de9e541fdd9b4dee23af2f743c00c28252a0c53",
+    "name": "8",
+    "fullName": "Subscription #8",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/8.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Sir Pinkalot"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level Goth"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "3D Glasses"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Black Shirt Checkered"
+      }
+    ]
+  },
+  {
+    "tx": "0x1b92f75c3090e423536c12cd9bd865c5cea5452e5736b459f30e3f101af29321",
+    "name": "9",
+    "fullName": "Subscription #9",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/9.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Block City during Rollback (Chainrunners)"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Scriboor"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Wifebeater"
+      }
+    ]
+  },
+  {
+    "tx": "0xad816a18085d4a57ed70c37aff5afec3c5183332b48fa76cc5cf7c66dbaf82a2",
+    "name": "10",
+    "fullName": "Subscription #10",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/10.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Sir Pinkalot"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level 30"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "White Shirt"
+      }
+    ]
+  },
+  {
+    "tx": "0x2c2463882ec1eae49ab32fa4b946ef6a944d545b7ecd6da51f4e46f9fdefe5e1",
+    "name": "11",
+    "fullName": "Subscription #11",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/11.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Royal Purple"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Omega Block Zealots"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "3D Glasses"
+      }
+    ]
+  },
+  {
+    "tx": "0x2830ce3605cf963943d152847585900a72996d4400b726c72c249fad75b2f418",
+    "name": "12",
+    "fullName": "Subscription #12",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/12.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "C3FF00"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Omega Block Zealots"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Wifebeater"
+      }
+    ]
+  },
+  {
+    "tx": "0x075013a863faaef049605ccbbc90668055cba00908311df77f28f11cd4bd94a9",
+    "name": "13",
+    "fullName": "Subscription #13",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/13.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Classic Punks BG"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level 30"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      }
+    ]
+  },
+  {
+    "tx": "0x6e215c07693330a477d136c6b514eda756ad0c540264473fc2a0cc215d7a3c70",
+    "name": "14",
+    "fullName": "Subscription #14",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/14.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Royal Purple"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Scriboor"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "3D Glasses"
+      }
+    ]
+  },
+  {
+    "tx": "0xb5ea493dab217e8167179d8a0ddc30b20a46925e12edbc35b5619c4ff03b3f81",
+    "name": "15",
+    "fullName": "Subscription #15",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/15.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "In Dorkness We Trust"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level Goth"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Hardbass Uniform"
+      }
+    ]
+  },
+  {
+    "tx": "0x82cea6c60f257e308c48e719d7935610ab4090e89520ca15dca45fe411f41ed6",
+    "name": "16",
+    "fullName": "Subscription #16",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/16.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Classic Punks BG"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Scriboor"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Hardbass Uniform"
+      }
+    ]
+  },
+  {
+    "tx": "0xaa101b8ec6dfc45e4bf9c4e4d4cf0174e62cc42df625cf172427c203ec216ab2",
+    "name": "17",
+    "fullName": "Subscription #17",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/17.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Perky Porky Pink"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Black and White Zombie"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Scriboor Visoor"
+      }
+    ]
+  },
+  {
+    "tx": "0x8a9ecd902a9977ece6cda5b833dc56e25d7a202be551a8958fdfe3f861593391",
+    "name": "18",
+    "fullName": "Subscription #18",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/18.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "In Dorkness We Trust"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level 80"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Aviators"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Black Hoodie"
+      }
+    ]
+  },
+  {
+    "tx": "0x886a93282777b23e2908f26e01fea4096bba9ec15eb821aa821d852825c78581",
+    "name": "19",
+    "fullName": "Subscription #19",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/19.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Classic Punks BG"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level 80"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Pink Shirt Striped"
+      }
+    ]
+  },
+  {
+    "tx": "0x3a4ff25e717d24c65842629b292a5a3103175a57eafc35e78746f62bcb79781e",
+    "name": "20",
+    "fullName": "Subscription #20",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/20.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "In Dorkness We Trust"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Zombie"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Green Shirt Striped"
+      }
+    ]
+  },
+  {
+    "tx": "0x4c43e22e2a9732113b24beb5a927d7d2665a83fe302394d6a6d409bbc7945183",
+    "name": "21",
+    "fullName": "Subscription #21",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/21.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Royal Purple"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Black and White Zombie"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Black Shirt"
+      }
+    ]
+  },
+  {
+    "tx": "0xf8d11329d7788def5f67fbe256deb1880afc24255a9cc9ad3902fa5e1894a13a",
+    "name": "22",
+    "fullName": "Subscription #22",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/22.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "C3FF00"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level Goth"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Wifebeater"
+      }
+    ]
+  },
+  {
+    "tx": "0x2443f9d0eb30cbf63a62190481af02f2d7eb4c01385b39d1aa32ffee40792de9",
+    "name": "23",
+    "fullName": "Subscription #23",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/23.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "In Dorkness We Trust"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level 80"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Hardbass Uniform"
+      }
+    ]
+  },
+  {
+    "tx": "0x7c44cd34fc651c384196e487691b2791876640d28351283094f1f64cac7ea4fc",
+    "name": "24",
+    "fullName": "Subscription #24",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/24.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Sir Pinkalot"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Scriboor"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Aviators"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Hardbass Uniform"
+      }
+    ]
+  },
+  {
+    "tx": "0xd9dd75fafd8aee733014aca40798ae4ad7abfe1de48b0e8918d53d2a7ddf0133",
+    "name": "25",
+    "fullName": "Subscription #25",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/25.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Sir Pinkalot"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Yeti People"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      }
+    ]
+  },
+  {
+    "tx": "0x923fa4d6a39f87373e7ee72818c7b20ed58cacf165b5dd160a7f46b9c81282fa",
+    "name": "26",
+    "fullName": "Subscription #26",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/26.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "C3FF00"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Scriboor"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Pink Shirt"
+      }
+    ]
+  },
+  {
+    "tx": "0xa7a112cb58fa258c5fae56c1b3445801651f13756cb398f4386d746dcf4fee17",
+    "name": "27",
+    "fullName": "Subscription #27",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/27.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Sir Pinkalot"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level 30"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Aviators"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Black Hoodie"
+      }
+    ]
+  },
+  {
+    "tx": "0xb3447cf62b7f4079ff5c592ccd713baf044a1d0730080c4e9017821d95cf284b",
+    "name": "28",
+    "fullName": "Subscription #28",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/28.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "C3FF00"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Alien People"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Aviators"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Pink Shirt"
+      }
+    ]
+  },
+  {
+    "tx": "0xd1777b83bab9bc0069ef868c2ae0c800653a9752b89d153abaa19ca98a0be8c9",
+    "name": "29",
+    "fullName": "Subscription #29",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/29.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Royal Purple"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Scriboor"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      }
+    ]
+  },
+  {
+    "tx": "0x9bebd219a71201e2f7af6abf662a2639caca7a27a5897a2cfc49b8029e60d932",
+    "name": "30",
+    "fullName": "Subscription #30",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/30.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "In Dorkness We Trust"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level 30"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Aviators"
+      }
+    ]
+  },
+  {
+    "tx": "0x496d38c849f528f53c2cf64073e7c0fb992c946374dd04a2771c8cdad40fee70",
+    "name": "31",
+    "fullName": "Subscription #31",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/31.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Perky Porky Pink"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level 30"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      }
+    ]
+  },
+  {
+    "tx": "0x73783a37edd721d1c41eb03a1661460facff5caf29989b15a36b7c0d44cade0a",
+    "name": "32",
+    "fullName": "Subscription #32",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/32.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Classic Punks BG"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level 80"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Scriboor Visoor"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Green Shirt Striped"
+      }
+    ]
+  },
+  {
+    "tx": "0x57ebb3f3c70a94a8a652cf0f94f437d9a915a744122132cfcf670e87bde76473",
+    "name": "33",
+    "fullName": "Subscription #33",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/33.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Block City during Rollback (Chainrunners)"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level 30"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "3D Glasses"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "White Shirt"
+      }
+    ]
+  },
+  {
+    "tx": "0xbcc267b51bdfe8dad8cb71a910aa530b58bd274707b5860fe96a1abde03cb76f",
+    "name": "34",
+    "fullName": "Subscription #34",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/34.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Perky Porky Pink"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Scriboor"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "3D Glasses"
+      }
+    ]
+  },
+  {
+    "tx": "0x81412da3781f83c5eedfcc736d43a1cc52bcd80f4103ce1fb0c64c27058765b4",
+    "name": "35",
+    "fullName": "Subscription #35",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/35.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Royal Purple"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level 80"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Hardbass Uniform"
+      }
+    ]
+  },
+  {
+    "tx": "0x5d2be7c8be85466b51e09ff3127bd4b22f3f6454a59881120ff1bf687354370b",
+    "name": "36",
+    "fullName": "Subscription #36",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/36.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Royal Purple"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Pork People"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "3D Glasses"
+      }
+    ]
+  },
+  {
+    "tx": "0x41b90ede4979719c7df5e58208fe78048b9c64a1d0a69d63f4336beb00228799",
+    "name": "37",
+    "fullName": "Subscription #37",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/37.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "C3FF00"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level 30"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "3D Glasses"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Flannel"
+      }
+    ]
+  },
+  {
+    "tx": "0x024d4af296dc2dabe45523d357f5857fb1db9519d1d32e36137b50e99d5c2581",
+    "name": "38",
+    "fullName": "Subscription #38",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/38.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Royal Purple"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level 30"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Scriboor Visoor"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Hardbass Uniform"
+      }
+    ]
+  },
+  {
+    "tx": "0xc5e8fad0e28c0366f2534cb3b15600b3277558af628a16c4365efa78cff175ed",
+    "name": "39",
+    "fullName": "Subscription #39",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/39.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Sir Pinkalot"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Scriboor"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "White Shirt"
+      }
+    ]
+  },
+  {
+    "tx": "0x821bf5ce5fcc3a0fa25c72aa30866d4134decbb7116460762dc7bd91a7e73a22",
+    "name": "40",
+    "fullName": "Subscription #40",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/40.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Classic Punks BG"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Black and White Zombie"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "3D Glasses"
+      }
+    ]
+  },
+  {
+    "tx": "0xdd35f9ef46b6f6dfeb60810eb58d7ac82a7e7c24ec6ef36d28518a3513812e4b",
+    "name": "41",
+    "fullName": "Subscription #41",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/41.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Feeling Blue"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Scriboor"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "White Shirt"
+      }
+    ]
+  },
+  {
+    "tx": "0x6d9248ba7acc3db98870fcfd897717416ccecae8c0f86e0a825a2f565c4832f3",
+    "name": "42",
+    "fullName": "Subscription #42",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/42.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Feeling Blue"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Omega Block Zealots"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Wifebeater"
+      }
+    ]
+  },
+  {
+    "tx": "0xb065673679748ae22d0d0966f84c91e4aeef41f85f29d927095d5071b8c82b1a",
+    "name": "43",
+    "fullName": "Subscription #43",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/43.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Classic Punks BG"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level 30"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Flannel"
+      }
+    ]
+  },
+  {
+    "tx": "0xf8936d8dff7844cd890eeb9865a867b591a3e7bc5b95fada16021e9c1bdc0528",
+    "name": "44",
+    "fullName": "Subscription #44",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/44.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "C3FF00"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Pork People"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "3D Glasses"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Black Hoodie"
+      }
+    ]
+  },
+  {
+    "tx": "0x60c921d345771629a1d57c3903b06477ddd85a8731f7f52b7a3838e3b2c6c689",
+    "name": "45",
+    "fullName": "Subscription #45",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/45.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "In Dorkness We Trust"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Zombie"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Fashion Hoodie"
+      }
+    ]
+  },
+  {
+    "tx": "0xba662c2c1053903623156dd1578780192c1a8c73edf1600cb1078bae5607fdd4",
+    "name": "46",
+    "fullName": "Subscription #46",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/46.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "In Dorkness We Trust"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Omega Block Zealots"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      }
+    ]
+  },
+  {
+    "tx": "0x62a0248712d96a049cb1658a8d7f0f82fdb0b9c23ae276077c8852d3b31794dd",
+    "name": "47",
+    "fullName": "Subscription #47",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/47.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Royal Purple"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Scriboor"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Scriboor Visoor"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "White Shirt Stained"
+      }
+    ]
+  },
+  {
+    "tx": "0x775619dba87ec9c92ab3ce01978b47884fa62138d2f0844327796e6b1598080e",
+    "name": "48",
+    "fullName": "Subscription #48",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/48.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Sir Pinkalot"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Kabocha Squash People"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Scriboor Visoor"
+      }
+    ]
+  },
+  {
+    "tx": "0x98c08ef98482e3e7579570317c6fa4480d99ca3ea6077edfc4077ab405ea0b62",
+    "name": "49",
+    "fullName": "Subscription #49",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/49.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Sir Pinkalot"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Pork People"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "3D Glasses"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "White Shirt"
+      }
+    ]
+  },
+  {
+    "tx": "0xc26212e9fd047071052878a8b1789b851f0959521a41c31f6e023e70fa602ac3",
+    "name": "50",
+    "fullName": "Subscription #50",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/50.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Deep Purple"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Alien People"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Flannel"
+      }
+    ]
+  },
+  {
+    "tx": "0x7f735e0c0a2224d3d7247cc223615cec65f1b0f71f2ad1d7659aeac5a9e76f9a",
+    "name": "51",
+    "fullName": "Subscription #51",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/51.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "In Dorkness We Trust"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Pork People"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Scriboor Visoor"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "White Shirt"
+      }
+    ]
+  },
+  {
+    "tx": "0xa6ee98339963d510e71aac58b363168ec347a10ee30006bd65967a62a896bd94",
+    "name": "52",
+    "fullName": "Subscription #52",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/52.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Sunrise in Block City"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level 80"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "White Shirt"
+      }
+    ]
+  },
+  {
+    "tx": "0x417c8e84ef773a2541e3960b8155c26225f829ed678b2fbfa041c72113d9e399",
+    "name": "53",
+    "fullName": "Subscription #53",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/53.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Deep Purple"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level 30"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Scriboor Visoor"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Blue Shirt"
+      }
+    ]
+  },
+  {
+    "tx": "0x6fc4ea304bd9cf7b3632869fa3bc19237c596f707c90732a962c810e400b1834",
+    "name": "54",
+    "fullName": "Subscription #54",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/54.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Perky Porky Pink"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level 80"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Aviators"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Black Shirt"
+      }
+    ]
+  },
+  {
+    "tx": "0x4f7ec3672e24c13a3651a50696eff2117797ab4bb9d88dc48b69a3cb172e9888",
+    "name": "55",
+    "fullName": "Subscription #55",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/55.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "In Dorkness We Trust"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Scriboor"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Scriboor Visoor"
+      }
+    ]
+  },
+  {
+    "tx": "0x019e4c12e7022c50264ace15d7b9c2e3ba986ada183e5bbbf10e6fbbf416e92d",
+    "name": "56",
+    "fullName": "Subscription #56",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/56.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "C3FF00"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Black and White Zombie"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Black Shirt"
+      }
+    ]
+  },
+  {
+    "tx": "0xa21d7c893757a8c48e19f63abad984b4f53a86e368a111b7c78c4aafb302c2be",
+    "name": "57",
+    "fullName": "Subscription #57",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/57.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Sir Pinkalot"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Pork People"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Aviators"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "McD Uniform"
+      }
+    ]
+  },
+  {
+    "tx": "0xf7c71bc11b3f83ec65a43f439813c46f5c3a9e601875e9cd7502a9c7375d7400",
+    "name": "58",
+    "fullName": "Subscription #58",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/58.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Perky Porky Pink"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Pork People"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Red Hoodie"
+      }
+    ]
+  },
+  {
+    "tx": "0xc2e58d2905059c79f2a7548997bc1e9b27962be098ba8494304eda93e0ce6816",
+    "name": "59",
+    "fullName": "Subscription #59",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/59.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Perky Porky Pink"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Pork People"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Scriboor Visoor"
+      }
+    ]
+  },
+  {
+    "tx": "0x31f16876c6c44658840801695e26c5bcca3b560bcfa5e865b6955c6b297b0d62",
+    "name": "60",
+    "fullName": "Subscription #60",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/60.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Sunset over Block Assembly Complex C137"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Bone People"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Aviators"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Fashion Hoodie"
+      }
+    ]
+  },
+  {
+    "tx": "0xa6de2832e54f000ccd33ff9b00918a7c0e88614e3981d5c2f57e4a962e4128be",
+    "name": "61",
+    "fullName": "Subscription #61",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/61.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Sir Pinkalot"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level Goth"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Aviators"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Black Shirt"
+      }
+    ]
+  },
+  {
+    "tx": "0x4877e0fc35c7f683933c4efe7924b59d5e7c32ad01e4f1607a64dc7186e3a445",
+    "name": "62",
+    "fullName": "Subscription #62",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/62.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Sunrise in Block City"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Omega Block Zealots"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "White Shirt"
+      }
+    ]
+  },
+  {
+    "tx": "0xd4106e8072ff4514dd403e4ebc697c095fb6bf438bef9792c9b8cf92b326585c",
+    "name": "63",
+    "fullName": "Subscription #63",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/63.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Perky Porky Pink"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Zombie"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Aviators"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Pink Hoodie"
+      }
+    ]
+  },
+  {
+    "tx": "0xfa6e044f4a793204346438180a2f2c36522bd07692c786e24ac5b8c5d279ef39",
+    "name": "64",
+    "fullName": "Subscription #64",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/64.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Sir Pinkalot"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Scriboor"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Black Hoodie"
+      }
+    ]
+  },
+  {
+    "tx": "0x45e386d8b43cacf2ebe9f8c19aa08c33f6539c8e2a809996c708165a729be1e4",
+    "name": "65",
+    "fullName": "Subscription #65",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/65.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Royal Purple"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human, Melanin Level 30"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Hardbass Uniform"
+      }
+    ]
+  },
+  {
+    "tx": "0x891b5a5ccecbd8086b271ab9205918f2f7cdd2da60663cfd884a010fbbccad49",
+    "name": "66",
+    "fullName": "Subscription #66",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/66.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Classic Punks BG"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Scriboor"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "3D Glasses"
+      }
+    ]
+  },
+  {
+    "tx": "0x6d529fbc79bb1fdca966886cf9156420a71ddfb3532bf3be543c1ee3f4778d44",
+    "name": "67",
+    "fullName": "Subscription #67",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/67.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Classic Punks BG"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Scriboor"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Scriboor Visoor"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "Blue Shirt"
+      }
+    ]
+  },
+  {
+    "tx": "0xde47f105e477005672ceda4e4815af893a752bf0e962ec23fd6662a86034367a",
+    "name": "68",
+    "fullName": "Subscription #68",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/68.png",
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Royal Purple"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Scriboor"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Cloths",
+        "value": "White Shirt"
+      }
+    ]
+  },
+  {
+    "tx": "0x301f7c05b3a474cc6f671c762cd2b46c1d0fd89dc8ca15e5723e6ce8114056fa",
+    "name": "69",
+    "fullName": "Subscription #69",
+    "description": "Subscriptions are TIC comments recursively inscribed on Comrade of the Dead #97",
+    "image": "images_800x800/69.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Alien People"
+      },
+      {
+        "trait_type": "Backgrounds",
+        "value": "Perky Porky Pink"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Watching Interview with the Vampire"
+      },
+      {
+        "trait_type": "Head",
+        "value": "Nexus Cap"
+      }
+    ]
+  }
+]

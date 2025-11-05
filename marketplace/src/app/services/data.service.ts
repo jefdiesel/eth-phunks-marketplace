@@ -1217,6 +1217,31 @@ export class DataService {
    * Fetches user avatar for a given address
    * @param address User address
    */
+
+  /**
+   * Load TIC collection from JSON
+   */
+  fetchTICCollection(): Observable<Phunk[]> {
+    return this.http.get<any[]>('assets/tic-data.json').pipe(
+      map((items: any[]) => items.map((item: any) => ({
+        hashId: item.tx,
+        slug: item.name,
+        tokenId: parseInt(item.name),
+        sha: '',
+        owner: '',
+        prevOwner: null,
+        createdAt: new Date(),
+        imageUri: null,
+        creator: null,
+        attributes: item.attributes || [],
+        listing: null,
+        bid: null,
+        isSupported: false,
+        loading: false,
+      }))),
+      tap(phunks => console.log('Loaded', phunks.length, 'TIC items'))
+    );
+  }
   async getUserAvatar(address: string): Promise<string> {
     const { data, error } = await supabase
       .from('ethscriptions' + this.suffix)
