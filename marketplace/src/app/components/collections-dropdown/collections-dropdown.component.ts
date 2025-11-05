@@ -25,8 +25,7 @@ import { firstValueFrom } from 'rxjs';
 })
 export class CollectionsDropdownComponent {
 
-  collections$ = this.store.select(dataStateSelectors.selectCollections);
-  subscriptionsCollection = { slug: "subscriptions", name: "Subscriptions", supply: 69 };
+  collections$ = this.store.selectSignal(state => []);
   activeCollection$ = this.store.select(dataStateSelectors.selectActiveCollection);
   dropdownActive$ = this.store.select(appStateSelectors.selectCollectionsMenuActive);
 
@@ -43,3 +42,4 @@ export class CollectionsDropdownComponent {
     this.store.dispatch(appStateActions.setCollectionsMenuActive({ collectionsMenuActive: !isActive }));
   }
 }
+

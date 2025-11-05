@@ -1,6 +1,5 @@
 <div class="curated-wrapper" [class.active]="(dropdownActive$ | async)">
   <button class="curated-button" (click)="toggleDropdown()">
-
     @if ((activeCollection$ | async); as collection) {
       @if (collection.image; as image) {
         <div class="image-wrapper">
@@ -13,31 +12,15 @@
         <span>Loading...</span>
       </div>
     }
-
     <div class="arrow">
       <ng-template [ngTemplateOutlet]="arrowIcon" />
     </div>
   </button>
 
   <div class="curated-dropdown">
-    
-      routerLink="/subscriptions"
-      [class.active]="(activeCollection$ | async)?.slug === 'subscriptions'">
+    <a routerLink="/subscriptions" [class.active]="(activeCollection$ | async)?.slug === 'subscriptions'">
       <span>Subscriptions</span>
     </a>
-    
-    @for (item of (collections$ | async); track item.slug) {
-      
-        [routerLink]="['/curated', item.slug]"
-        [class.active]="(activeCollection$ | async)?.slug === item.slug">
-
-        <div class="image-wrapper">
-          <img [src]="item.image" />
-        </div>
-
-        <span>{{ item.name }}</span>
-      </a>
-    }
   </div>
 </div>
 

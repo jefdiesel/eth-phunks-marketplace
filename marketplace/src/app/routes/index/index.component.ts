@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component, signal, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, RouterModule } from '@angular/router';
 import { WaIntersectionObserver } from '@ng-web-apis/intersection-observer';
@@ -22,8 +22,8 @@ import { GlobalState } from '@/models/global-state';
 import * as dataStateSelectors from '@/state/selectors/data-state.selectors';
 import * as appStateSelectors from '@/state/selectors/app-state.selectors';
 import * as marketStateSelectors from '@/state/selectors/market-state.selectors';
-import { tap } from 'rxjs';
-
+import * as marketStateActions from '@/state/actions/market-state.actions';import { tap } from 'rxjs';
+import * as dataStateActions from '@/state/actions/data-state.actions';
 @Component({
   standalone: true,
   imports: [
@@ -45,7 +45,7 @@ import { tap } from 'rxjs';
   styleUrls: ['./index.component.scss']
 })
 
-export class IndexComponent {
+export class IndexComponent implements OnInit {
 
   walletAddress$ = this.store.select(appStateSelectors.selectWalletAddress);
   activeCollection$ = this.store.select(dataStateSelectors.selectActiveCollection);
@@ -69,3 +69,25 @@ export class IndexComponent {
     public route: ActivatedRoute
   ) {}
 }
+
+  ngOnInit() {
+    this.route.params.subscribe(params => {
+      const slug = params['slug'];
+      if (slug === 'subscriptions') {
+        const mockCollection = {
+          slug: 'subscriptions',
+          name: 'Subscriptions',
+          supply: 69,
+          image: null,
+          mintEnabled: false,
+          isMinting: false,
+          description: 'TIC Protocol Subscriptions'
+        };
+        this.store.dispatch(dataStateActions.setActiveCollection({ collection: mockCollection }));
+      }
+      console.log("Route slug:", slug);
+      if (slug) {
+        this.store.dispatch(marketStateActions.setMarketSlug({ marketSlug: slug }));
+      }
+    });
+  }
