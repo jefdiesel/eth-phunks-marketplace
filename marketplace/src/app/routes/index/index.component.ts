@@ -22,8 +22,10 @@ import { GlobalState } from '@/models/global-state';
 import * as dataStateSelectors from '@/state/selectors/data-state.selectors';
 import * as appStateSelectors from '@/state/selectors/app-state.selectors';
 import * as marketStateSelectors from '@/state/selectors/market-state.selectors';
-import * as marketStateActions from '@/state/actions/market-state.actions';import { tap } from 'rxjs';
 import * as dataStateActions from '@/state/actions/data-state.actions';
+import * as marketStateActions from '@/state/actions/market-state.actions';
+import { tap } from 'rxjs';
+
 @Component({
   standalone: true,
   imports: [
@@ -68,26 +70,13 @@ export class IndexComponent implements OnInit {
     public dataSvc: DataService,
     public route: ActivatedRoute
   ) {}
-}
 
   ngOnInit() {
     this.route.params.subscribe(params => {
       const slug = params['slug'];
-      if (slug === 'subscriptions') {
-        const mockCollection = {
-          slug: 'subscriptions',
-          name: 'Subscriptions',
-          supply: 69,
-          image: null,
-          mintEnabled: false,
-          isMinting: false,
-          description: 'TIC Protocol Subscriptions'
-        };
-        this.store.dispatch(dataStateActions.setActiveCollection({ collection: mockCollection }));
-      }
-      console.log("Route slug:", slug);
       if (slug) {
         this.store.dispatch(marketStateActions.setMarketSlug({ marketSlug: slug }));
       }
     });
   }
+}

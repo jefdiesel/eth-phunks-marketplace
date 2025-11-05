@@ -1,5 +1,4 @@
 import { Routes } from '@angular/router';
-
 import { InitialCollectionGuard } from '@/guards/initial-collection.guard';
 
 export const routes: Routes = [
@@ -14,6 +13,14 @@ export const routes: Routes = [
     pathMatch: 'full'
   },
   {
+    path: 'details/:hashId',
+    loadComponent: () => import('@/routes/item-view/item-view.component').then(mod => mod.ItemViewComponent)
+  },
+  {
+    path: 'subscriptions-test',
+    loadComponent: () => import('./subscriptions-test/subscriptions-test.component').then(mod => mod.SubscriptionsTestComponent)
+  },
+  {
     path: 'curated/:slug',
     redirectTo: ':slug',
     pathMatch: 'full'
@@ -22,10 +29,6 @@ export const routes: Routes = [
     path: 'curated/:slug/market/:marketType',
     redirectTo: ':slug/market/:marketType',
     pathMatch: 'full'
-  },
-  {
-    path: 'details/:hashId',
-    loadComponent: () => import('@/routes/item-view/item-view.component').then(mod => mod.ItemViewComponent)
   },
   {
     path: ':slug',

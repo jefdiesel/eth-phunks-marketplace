@@ -1,0 +1,22 @@
+.tic-image {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+}
+
+.tic-image-small {
+  width: 32px;
+  height: 32px;
+}
+
+.tic-image-medium {
+  width: 64px;
+  height: 64px;
+}
+
+.tic-image-large {
+  width: 200px;
+  height: 200px;
+}

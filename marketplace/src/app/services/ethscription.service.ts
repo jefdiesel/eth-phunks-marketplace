@@ -21,35 +21,33 @@ export class EthscriptionService {
   ) {}
 
   /**
-   * Extracts image from TIC (Tiny Image Comments) protocol
+   * Extracts image from TIC (Tiny Image Comments) protocol via Calldata API
    * @param tx Transaction hash of the Ethscription
    * @returns Data URI string or null
    */
   private async extractTICImage(tx: string): Promise<string | null> {
     try {
-      const response = await fetch(`https://api.ethscriptions.com/api/ethscriptions/${tx}`);
-      const ethscription = await response.json();
+      // Use v2 Calldata API - faster, smaller, cached
+      const response = await fetch(`https://api.ethscriptions.com/api/ethscriptions/${tx}/calldata`);
+      const data = await response.json();
       
-      if (!ethscription.content_uri) return null;
+      if (!data.calldata) return null;
       
-      // Step 1: Extract TIC JSON from content_uri data URL
-      const jsonMatch = ethscription.content_uri.match(/,({.*})/);
-      if (!jsonMatch) return null;
+      // Extract JSON from data URI - everything after the comma
+      const commaIndex = data.calldata.indexOf(',');
+      if (commaIndex === -1) return null;
       
-      // Step 2: Parse TIC JSON
-      const ticJson = JSON.parse(jsonMatch[1]);
-      
-      // Step 3: Parse the nested content field
+      const jsonStr = data.calldata.slice(commaIndex + 1);
+      const ticJson = JSON.parse(jsonStr);
       const content = JSON.parse(ticJson.content);
       
-      // Step 4: Extract base64 image
-      if (content.images?.small?.data) {
-        const mimeType = content.images.small.mimeType || 'image/png';
-        const base64 = content.images.small.data;
-        return `data:${mimeType};base64,${base64}`;
-      }
+      if (!content.images?.small?.data) return null;
       
-      return null;
+      const mimeType = content.images.small.mimeType || 'image/png';
+      const base64 = content.images.small.data;
+      
+      // Return data URI - browser native support
+      return `data:${mimeType};base64,${base64}`;
     } catch (err) {
       console.error('Failed to extract TIC image from', tx, err);
       return null;
@@ -63,13 +61,13 @@ export class EthscriptionService {
   async processImage(phunk: Phunk | null): Promise<DecodedData | null> {
     if (!phunk) return null;
 
-    // Step 1: Try TIC protocol extraction first
+    // Try TIC protocol extraction first
     const ticImage = await this.extractTICImage(phunk.hashId as string);
     if (ticImage) {
       return this.decodeDataURI(ticImage);
     }
 
-    // Step 2: Fall back to existing logic
+    // Fall back to existing logic
     let imageData;
     if (phunk?.isSupported) {
       imageData = await this.fetchHostedImage(phunk);
@@ -85,24 +83,12 @@ export class EthscriptionService {
 
   async fetchHostedImage(phunk: Phunk | null): Promise<string | null> {
     const image = await this.imageSvc.fetchSupportedImageBySha(phunk?.sha as string);
-
-    // Convert ArrayBuffer to base64 string
     const uint8Array = new Uint8Array(image);
     const binaryString = uint8Array.reduce((str, byte) => str + String.fromCharCode(byte), '');
     const base64String = btoa(binaryString);
-
-    // Create data URI (assuming it's a PNG - adjust content type if different)
-    const dataUri = `data:image/png;base64,${base64String}`;
-
-    return dataUri;
+    return `data:image/png;base64,${base64String}`;
   }
 
-  /**
-   * Decodes a data URI string into content type, mime type and data
-   * Handles base64 encoded data and various content types
-   * @param dataURI The data URI string to decode
-   * @returns DecodedData object containing type, mimeType and processed data
-   */
   private decodeDataURI(dataURI: string): DecodedData {
     if (!dataURI) return { type: 'unsupported', mimeType: '', data: 'No Data URI' };
     if (dataURI.startsWith('https://')) return { type: 'url', mimeType: '', data: dataURI };
@@ -126,7 +112,6 @@ export class EthscriptionService {
       case 'html':
         try {
           const decoded = isBase64 ? atob(data) : decodeURIComponent(data);
-          // Inject responsive script and centering styles into the HTML
           const injectContent = `
             <style>
               html, body {
