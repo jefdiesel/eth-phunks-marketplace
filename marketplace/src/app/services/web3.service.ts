@@ -762,14 +762,20 @@ export class Web3Service {
     const tokenId = await this.readTokenContractL2('hashToToken', [hashId]);
     const offer = await this.readMarketContractL2('phunksOfferedForSale', [tokenId]);
 
-    // console.log({tokenId, offer});
     if (!offer[0]) throw new Error('Phunk not for sale');
 
     const value = offer[3];
-    await this.switchNetwork('l2');
-    return this.writeMarketContractL2('buyPhunk', [tokenId], value);
-  }
+    
+    let parentOwner = '0x0000000000000000000000000000000000000000';
+    try {
+      parentOwner = await this.ticParent.getParentOwner() || parentOwner;
+    } catch (err) {
+      console.warn('Failed to fetch parent owner', err);
+    }
 
+    await this.switchNetwork('l2');
+    return this.writeMarketContractL2('buyPhunk', [tokenId, value, parentOwner], value);
+  }
   /**
    * Cancels a phunk listing on L2
    * @param hashId The hash ID of the phunk listing to cancel
